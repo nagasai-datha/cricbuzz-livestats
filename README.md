@@ -188,10 +188,12 @@ Q23 - Form analysis | Q24 - Best partnerships | Q25 - Career trajectory
 
 ## 👨‍💻 Author
 
-**Naga Sai**
+**Gangarapu Datha Naga Sai**
 - 🎓 Data / Business Analyst Intern at **Labmentrix**
-- 💼 LinkedIn: [Add your LinkedIn URL]
-- 🐙 GitHub: [Add your GitHub URL]
+- 💼 LinkedIn: [gangarapu-datha-naga-sai](https://www.linkedin.com/in/gangarapu-datha-naga-sai)
+- 🐙 GitHub: [nagasai-datha](https://github.com/nagasai-datha)
+- 📧 Email: nagasaigangarapu@gmail.com
+- 🎬 Demo Video: [Watch on Google Drive](https://drive.google.com/file/d/1sqTO6HyN6TADgJDO1VbT-eOa5tz2fMBf/view?usp=sharing)
 
 ---
 
