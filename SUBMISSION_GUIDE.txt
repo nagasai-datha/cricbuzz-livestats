@@ -1,0 +1,218 @@
+================================================================
+   CRICBUZZ LIVESTATS — COMPLETE SUBMISSION GUIDE
+   Author: Naga Sai | Labmentrix Internship
+================================================================
+
+
+================================================================
+STEP 1 — FILES TO SUBMIT TO LABMENTRIX
+================================================================
+
+Zip these files and send to Labmentrix:
+
+project 7/
+├── .streamlit/config.toml
+├── pages/
+│   ├── home.py
+│   ├── live_matches.py
+│   ├── player_stats.py
+│   ├── sql_analytics.py
+│   └── crud_operations.py
+├── utils/
+│   ├── __init__.py
+│   ├── db_connection.py
+│   └── api_helper.py
+├── main.py
+├── requirements.txt
+├── cricbuzz_schema.sql
+├── README.md
+└── .env (with passwords removed!)
+
+IMPORTANT: Before zipping, open .env and change to:
+RAPIDAPI_KEY=your_key_here
+DB_PASSWORD=your_password_here
+
+
+================================================================
+STEP 2 — VIDEO RECORDING (Required by Labmentrix)
+================================================================
+
+Use Xbox Game Bar (built into Windows 11):
+
+1. Make sure your app is running (streamlit run main.py)
+2. Press  Windows key + G  → Xbox Game Bar opens
+3. Click the Record button OR press  Win + Alt + R
+4. Record these pages in order:
+   → Home page (scroll down slowly)
+   → Live Matches (show live scores)
+   → Player Stats (change format to Test, show chart)
+   → SQL Analytics (run Q1, Q3, Q5, Q17)
+   → CRUD Operations (add a player, show it in table)
+5. Press  Win + Alt + R  again to stop
+6. Video saves to: C:\Users\nagas\Videos\Captures\
+
+Recording tips:
+→ Record for 3-5 minutes total
+→ Click each page slowly so viewer can see
+→ Run at least 4-5 SQL queries
+
+
+================================================================
+STEP 3 — GITHUB UPLOAD
+================================================================
+
+Step 3a: Create GitHub account
+→ Go to https://github.com
+→ Sign Up with your email
+→ Verify email
+
+Step 3b: Create new repository
+→ Click "+" → New repository
+→ Name: cricbuzz-livestats
+→ Description: Real-Time Cricket Analytics Dashboard | Python + Streamlit + MySQL + SQL
+→ Set to: Public
+→ Do NOT check "Add README" (we have our own)
+→ Click Create repository
+
+Step 3c: Install Git on Windows
+→ Download: https://git-scm.com/download/win
+→ Install with all default settings
+→ Open new CMD and type: git --version
+→ Should show: git version 2.x.x
+
+Step 3d: Upload your project
+Open CMD in your project 7 folder and run ONE BY ONE:
+
+git init
+git add .
+git commit -m "Cricbuzz LiveStats - Cricket Analytics Dashboard"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/cricbuzz-livestats.git
+git push -u origin main
+
+(Replace YOUR_USERNAME with your actual GitHub username)
+
+Step 3e: Add topics to repository
+→ On GitHub, go to your repository
+→ Click gear icon ⚙️ next to "About"
+→ Add these topics:
+   python  streamlit  mysql  sql  cricket  data-analytics
+   rest-api  plotly  sports-analytics  internship
+
+
+================================================================
+STEP 4 — LINKEDIN POST (Copy & paste this)
+================================================================
+
+🏏 Excited to share my latest project: Cricbuzz LiveStats Dashboard!
+
+As part of my Data Analytics internship at Labmentrix, I built a 
+real-time cricket analytics web application from scratch! 🚀
+
+🔧 What I built:
+✅ Connected to live Cricbuzz REST API for real-time match data
+✅ Designed a MySQL database with 9 normalized tables
+✅ Built a 5-page interactive dashboard using Python & Streamlit
+✅ Wrote 25 SQL queries — from Beginner to Advanced level
+✅ Implemented full CRUD operations for data management
+✅ Created interactive charts using Plotly
+
+💻 Tech Stack:
+Python | Streamlit | MySQL | REST API | Pandas | Plotly | SQL
+
+📊 Key Features:
+🔴 Live match scorecards (real-time API)
+🏆 ICC player rankings with bar charts
+📊 SQL analytics interface with 25 queries
+⚙️ Player & match data management (CRUD)
+
+This project helped me strengthen my skills in:
+→ SQL (JOINs, Window Functions, CTEs, Aggregates)
+→ REST API integration with Python
+→ Database design & normalization
+→ Web application development
+→ Data visualization
+
+🔗 GitHub: [paste your github link here]
+
+Grateful to Labmentrix for this amazing learning opportunity! 🙌
+
+#Python #SQL #DataAnalytics #Streamlit #MySQL #Cricket
+#DataScience #BusinessAnalytics #Internship #Labmentrix
+#WebDevelopment #RestAPI #SportsAnalytics #ProjectShowcase
+
+
+================================================================
+STEP 5 — RESUME BULLET POINTS
+================================================================
+
+Add this under "Projects" section in your resume:
+
+---------------------------------------------------------------
+PROJECT: Cricbuzz LiveStats — Cricket Analytics Dashboard
+Tech Stack: Python | Streamlit | MySQL | REST API | Pandas | Plotly
+---------------------------------------------------------------
+
+• Developed a real-time cricket analytics dashboard using Python
+  and Streamlit, integrating the Cricbuzz REST API for live match
+  scorecards, player rankings, and upcoming match schedules
+
+• Designed and implemented a normalized MySQL relational database
+  with 9 tables storing player profiles, match results, career
+  statistics, venue data, and series information
+
+• Wrote 25 SQL queries covering beginner to advanced concepts
+  including JOINs, subqueries, window functions, CTEs, GROUP BY,
+  and complex statistical calculations
+
+• Built complete CRUD operations (Create, Read, Update, Delete)
+  using a Streamlit form-based UI connected to a live MySQL database
+
+• Created interactive data visualizations using Plotly including
+  ICC batting/bowling rankings and player performance bar charts
+
+• Implemented secure API key and database credential management
+  using environment variables (.env configuration)
+
+
+================================================================
+STEP 6 — OTHER WEBSITES TO ADD YOUR PROJECT
+================================================================
+
+PORTFOLIO SITES (Free):
+→ Notion.so     — Create a portfolio page with screenshots
+→ Carrd.co      — Beautiful single-page portfolio
+→ About.me      — Simple personal page
+
+DATA COMMUNITIES:
+→ Kaggle.com    — Share as a notebook/dataset
+→ Medium.com    — Write a blog post about your project
+
+JOB PORTALS (Add in Projects section):
+→ Naukri.com
+→ Internshala.com
+→ Unstop.com
+→ LinkedIn (already covered above)
+
+DEVELOPER BLOGS:
+→ Dev.to        — Technical blog post
+→ Hashnode.com  — Developer blog
+
+
+================================================================
+CHECKLIST — Before Final Submission
+================================================================
+
+[ ] All 5 pages working in browser
+[ ] SQL Analytics — tested at least 5 queries
+[ ] CRUD — added and deleted a test player
+[ ] Live Matches — shows real data
+[ ] README.md added to project folder
+[ ] .gitignore added to project folder
+[ ] .env cleaned (no real passwords)
+[ ] Video recorded (3-5 minutes)
+[ ] GitHub repository created and uploaded
+[ ] LinkedIn post published
+[ ] Files zipped and sent to Labmentrix
+
+================================================================
